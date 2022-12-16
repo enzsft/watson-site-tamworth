@@ -134,7 +134,7 @@ const Hero = () => {
               </Button>
               <Button
                 component="a"
-                href="mail:info@chiropodisttamworth.co.uk"
+                href="mailto:info@chiropodisttamworth.co.uk"
                 leftIcon={<IconMail size={14} />}
               >
                 Email us
@@ -391,7 +391,7 @@ const Contact = () => {
               <Text component="dd" m={0}>
                 <Text
                   component="a"
-                  href="mail:info@chiropodisttamworth.co.uk"
+                  href="mailto:info@chiropodisttamworth.co.uk"
                   sx={{
                     ":hover": {
                       textDecoration: "underline",
