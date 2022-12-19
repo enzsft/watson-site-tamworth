@@ -203,11 +203,14 @@ const Services = () => {
                 <Stack spacing="xs">
                   <Text>Routine treatment • £30.00</Text>
                   <Text>Routine pensioner treatment (65+ years) • £26.00</Text>
-                  <Text>Home visit (1 person) • £33.00</Text>
-                  <Text>Home visit (2 person) • £55.00</Text>
+                  <Text>Home visit (1 person) • £33.00*</Text>
+                  <Text>Home visit (2 person) • £55.00*</Text>
                   <Text>Othortics • £40.00+</Text>
                   <Text fw="bold" italic>
                     Missed appointments will incur full fee
+                  </Text>
+                  <Text fz="sm" italic>
+                    * Home visit inclusive of routine treatment
                   </Text>
                 </Stack>
               </Text>
