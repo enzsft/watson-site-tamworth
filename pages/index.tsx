@@ -361,14 +361,12 @@ const Contact = () => {
             <iframe
               width="100%"
               height="100%"
-              id="gmap_canvas"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
               src="https://maps.google.com/maps?q=g%20t%20watson%20tamworth&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameBorder="0"
-              scrolling="no"
-              marginHeight={0}
-              marginWidth={0}
-              title="Google Maps location"
-            ></iframe>
+            />
           </Box>
         </Grid.Col>
         <Grid.Col md={4} sm={6} xs={12}>
