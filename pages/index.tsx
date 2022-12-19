@@ -162,7 +162,13 @@ const MeetTheTeam = () => {
       <Grid justify="center">
         <Grid.Col md={4} sm={6} xs={8} sx={{ textAlign: "center" }}>
           <Paper radius="md" withBorder p="lg" h="100%">
-            <Avatar src={gordonImage.src} size={120} radius={120} mx="auto" />
+            <Avatar
+              src={gordonImage.src}
+              size={120}
+              radius={120}
+              mx="auto"
+              alt="Gordon Watson"
+            />
             <Text mt="md" align="center">
               Gordon Watson
             </Text>
@@ -172,7 +178,13 @@ const MeetTheTeam = () => {
         </Grid.Col>
         <Grid.Col md={4} sm={4} xs={8} sx={{ textAlign: "center" }}>
           <Paper radius="md" withBorder p="lg" h="100%">
-            <Avatar src={lisaImage.src} size={120} radius={120} mx="auto" />
+            <Avatar
+              src={lisaImage.src}
+              size={120}
+              radius={120}
+              mx="auto"
+              alt="Lisa Watson"
+            />
             <Text mt="md" align="center">
               Lisa Watson
             </Text>
