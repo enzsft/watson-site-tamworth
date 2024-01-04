@@ -252,7 +252,7 @@ const Services = () => {
                 Home visit areas
               </Text>
               <Text component="dd" m={0}>
-                Tamworth, Polesworth, Kingsbury, Lichfield and Measham
+                Tamworth, Polesworth, Kingsbury, Lichfield, Measham and Dordon
               </Text>
             </Box>
           </Flex>
